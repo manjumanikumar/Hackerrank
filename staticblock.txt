@@ -1,0 +1,16 @@
+//Write your code here
+static{
+    Scanner sc = new Scanner(System.in);
+    int b = sc.nextInt();
+    int h = sc.nextInt();
+    try{
+    if (b>0 && h>0){
+        int result = b*h;
+        System.out.println(result);
+    }
+    }
+    catch(Exception e){
+                System.out.println(e + "Breadth and Height must be positive");
+    }
+    
+}
